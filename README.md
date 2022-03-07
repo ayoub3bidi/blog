@@ -1,5 +1,5 @@
 # Ayoub Blog  
-This was my first React project after using Vue.js for a long time now. Hoping you will like
+This was my first React project after using Vue.js for a long time now. Hoping you will like it.
 
 ## Available Scripts
 
