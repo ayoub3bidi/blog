@@ -28,6 +28,13 @@
 .navbar a:hover {
   color: #0dcaf0;
 }
+.footer {
+  padding: 20px;
+}
+.footer h5 {
+  text-align: center;
+}
+
 .content {
   max-width: 600px;
   margin: 40px auto;
