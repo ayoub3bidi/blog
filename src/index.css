@@ -33,3 +33,49 @@
   margin: 40px auto;
   padding: 20px;
 }
+.home {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.single {
+  padding-bottom: 20px;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  transition: all ease 0.2s;
+}
+.single:hover {
+  box-shadow: 1px 2px rgba(50,50,50,0.05);
+  transform: scale(1.02);
+  transition: all ease 0.2s;
+}
+.thumbnail {
+  max-width: 300px;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.info {
+  margin: 10px;
+  max-width: 50%;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
