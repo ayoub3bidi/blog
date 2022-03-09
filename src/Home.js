@@ -1,7 +1,8 @@
 import { useState } from "react";
+import BlogList from "./BlogList";
 
 const Home = () => {
-    const [blogs, setBlogs] = useState([
+    const [blogs] = useState([
         { 
             id: 0,
             title: 'Why you should try Vue.js ? (as a beginner)',
@@ -68,19 +69,7 @@ const Home = () => {
     ])
     return ( 
         <div className="home">
-            {blogs.reverse().map((blog) => (
-                <a href={ blog.devLink }>
-                    <div className="single" key={blog.id}>
-                        <div className="thumbnail">
-                            <img className="cover" src={ blog.image } alt="cover" />    
-                        </div>
-                        <div className="info">
-                            <h2>{ blog.title }</h2>
-                            <p>{ blog.description }...</p>  
-                        </div>
-                    </div>
-                </a>
-            ))} 
+           <BlogList blogs={blogs.reverse()} />
         </div>
     );
 }
