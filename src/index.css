@@ -44,6 +44,11 @@
   padding-left: 100px;
   padding-top: 20px;
 }
+.about {
+  padding-top: 20px;
+  padding-bottom: 500px;
+  text-align: center
+}
 .single {
   padding-bottom: 20px;
   max-width: 1400px;
