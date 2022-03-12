@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Home from './Home'
 import About from './About'
+import NotFound from './NotFound'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />  
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </header>

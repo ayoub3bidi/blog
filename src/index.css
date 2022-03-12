@@ -49,6 +49,16 @@
   padding-bottom: 500px;
   text-align: center
 }
+.not-found {
+  text-align: center;
+  padding-top: 20px;
+}
+.not-found h2 {
+  padding-bottom: 40px
+}
+.not-found .Link {
+  color:#0dcaf0;
+}
 .single {
   padding-bottom: 20px;
   max-width: 1400px;
